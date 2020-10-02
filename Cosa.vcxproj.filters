@@ -13,21 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{1bbc3096-7dd0-4b1c-9a02-8d3b980c8e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils\Proxy">
+      <UniqueIdentifier>{68694a1d-712b-4f6a-87c5-9cce0c8699a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{f0d819d4-a5e3-4160-94ee-e7315bd3e221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils\Proxy">
+      <UniqueIdentifier>{07255ccd-7c11-4d92-9f9c-64b70dea7ed3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
+    <ClCompile Include="Utils\Proxy\Proxy.cpp">
+      <Filter>Исходные файлы\Utils\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosa.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CDllExport.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    <ClInclude Include="Utils\Proxy\Proxy.h">
+      <Filter>Файлы заголовков\Utils\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosa.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CVersion.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CDllExport.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
