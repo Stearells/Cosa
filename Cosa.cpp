@@ -8,7 +8,7 @@ BOOL WINAPI DllMain(
     switch (fdwReason)
     {
     case DLL_PROCESS_ATTACH:
-        MessageBox(NULL, L"It is working!!!", L"", MB_OK);
+        //MessageBox(NULL, L"It is working!!!", L"", MB_OK); //test it
         break;
 
     case DLL_THREAD_ATTACH:
